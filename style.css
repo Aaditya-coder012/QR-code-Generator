@@ -1,0 +1,45 @@
+body,html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.container{
+  background-color: blue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  flex-direction: column;
+}
+
+.input{
+  background-color: white;
+  padding: 50px 100px;
+  text-align: center;
+  border: 5px solid black;
+  width: 250px;
+  border-radius: 20px;
+}
+
+p{
+    font-size: 200%;
+}
+
+input{
+    height: 50px;
+    width: 250px;
+    border-radius: 20px;
+}
+
+button{
+    background-color: blue;
+    height: 50px;
+    width: 250px;
+    border-radius: 20px;
+}
+
+button:hover{
+    transform: scale(1.05);
+    background-color: aliceblue;
+}
